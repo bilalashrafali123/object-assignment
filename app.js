@@ -99,11 +99,7 @@ const products = [
         price: 199.99,
         discription: "Express your creativity with this digital drawing tablet."
     },
-    {
-        name: "Wireless Router",
-        price: 79.99,
-        discription: "Fast and reliable internet connection for your home network."
-    }
+   
 ];
 
 let screenRender = document.querySelector('#div')
@@ -113,9 +109,9 @@ for(i=0 ; i < products.length ; i++ ){
     console.log(products[i].name);
     screenRender.innerHTML += `
     <div class="main-card">
-    <h1>Product: ${products[i].name}</h1>
-    <h2>Price: ${products[i].price}$</h2>
-    <h3">Discription: ${products[i].discription}</h6>
+    <h1>Product: ${products[i].name}</h2>
+    <h3>Price: ${products[i].price}$</h3>
+    <h4">Discription: ${products[i].discription}</h4>
     </div>
     `
 
