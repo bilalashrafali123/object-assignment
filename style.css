@@ -1,10 +1,10 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.main-container {
+.main-card {
     width: 250px;
     height: 280px;
     border: 1px solid #000;
@@ -13,4 +13,4 @@
 
 .bg-color {
     background-color: skyblue;
-} */
+}
